@@ -154,3 +154,191 @@ h2 { font-size: clamp(37px, 4vw, 62px); line-height: 1.14; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Craft: completed form, wearing, structure, then a distinct crystal process. */
+.site-header .wordmark { color: #fff; }
+.romantic-context { font-size: 13px; line-height: 1.8; margin: 24px 0 0; }
+.hat-collection-section { background: var(--warm); color: var(--ink); }
+.hat-collection-intro .eyebrow { color: var(--muted); }
+.craft-section { background: var(--paper); padding: 145px 8vw 150px; }
+.craft-intro { max-width: 800px; margin-bottom: 85px; }
+.craft-intro .section-index { margin: 0 0 50px; }
+.craft-composition { display:grid; grid-template-columns: 1.25fr .65fr; gap: 7vw; align-items: start; }
+.craft-section figure { margin:0; }
+.craft-section img { display:block; width:100%; height:auto; object-fit:contain; }
+.craft-composition .craft-worn { margin-top: 11vw; }
+.craft-section .craft-detail { width: 56%; margin: 90px auto 100px; }
+.craft-process-row { border-top:1px solid var(--line); padding-top:65px; display:grid; grid-template-columns:1fr 1fr; gap:8vw; align-items:center; }
+.craft-process-copy { max-width:430px; font-size:16px; line-height:1.95; }
+.craft-material-note { font-size:13px; color:var(--muted); line-height:1.9; margin-top:24px; }
+a:focus-visible, button:focus-visible { outline:2px solid currentColor; outline-offset:5px; }
+@media(min-width:701px) and (max-width:1000px) { .movement-section { grid-template-columns:1fr; } .hero-copy { padding-left:0; } }
+@media(max-width:700px) {
+ .craft-section { padding:88px 22px 100px; }
+ .craft-intro { margin-bottom:45px; }
+ .craft-composition { display:flex; flex-direction:column; gap:34px; }
+ .craft-composition .craft-worn { width:78%; margin:0 0 0 auto; }
+ .craft-section .craft-detail { width:90%; margin:55px auto 65px; }
+ .craft-process-row { grid-template-columns:1fr; gap:28px; padding-top:40px; }
+ .craft-process-copy { font-size:15px; }
+ .craft-material-note { font-size:13px; }
+}
+
+/* Research references remain separate from the forthcoming collection. */
+.tradition-section { background:var(--warm); padding:145px 8vw 150px; }
+.tradition-intro { max-width:830px; margin:0 auto 85px; }
+.tradition-intro .section-index { margin:0 0 50px; }
+.tradition-intro .eyebrow { color:var(--muted); margin-bottom:25px; }
+.tradition-intro h2 { font-size:clamp(32px,3.3vw,51px); line-height:1.5; word-break:keep-all; }
+.tradition-body { max-width:560px; font-size:15px; line-height:1.95; margin-top:34px; }
+.tradition-research { display:grid; grid-template-columns: .85fr 1.15fr; gap:55px 5vw; align-items:start; }
+.tradition-research figure { margin:0; min-width:0; }
+.tradition-research img { width:100%; height:auto; display:block; object-fit:contain; }
+.tradition-gat { margin-top:65px !important; }
+.tradition-jeongja { grid-column:1 / -1; width:78%; justify-self:center; }
+@media(max-width:700px) {
+ .tradition-section { padding:88px 22px 100px; }
+ .tradition-intro { margin-bottom:45px; }
+ .tradition-intro h2 { font-size:32px; }
+ .tradition-research { grid-template-columns:1fr; gap:38px; }
+ .tradition-gat { margin-top:0 !important; }
+ .tradition-jeongja { grid-column:auto; width:100%; }
+}
+
+.about-section { background:var(--paper); padding:140px 8vw; }
+.about-intro { max-width:750px; }
+.about-intro .section-index { margin:0 0 50px; }
+.about-intro>p { max-width:610px; font-size:15px; line-height:1.95; }
+.about-intro .eyebrow { font-size:11px; }
+.about-intro .artist-name { margin:46px 0 12px; font-size:28px; }
+.career-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px 7vw; margin-top:80px; }
+.career-group { border-top:1px solid var(--line); padding-top:25px; }
+.career-group h3 { font-weight:500; font-size:14px; margin:0 0 28px; }
+.career-group p,.exhibition-detail p { font-size:14px; line-height:1.95; }
+.exhibition-detail { border-top:1px solid var(--line); margin-top:65px; padding-top:28px; max-width:800px; }
+.exhibition-detail summary { cursor:pointer; font-size:16px; line-height:1.7; }
+.contact-section { background:var(--warm); padding:130px 8vw; }
+.contact-section .section-index { margin:0 0 55px; }
+.contact-section h2 { font-size:clamp(30px,3.6vw,54px); line-height:1.45; max-width:850px; }
+.contact-body { max-width:620px; margin-top:45px; font-size:15px; line-height:1.95; }
+.contact-services { margin:40px 0 30px; font-size:13px; line-height:1.9; }
+.email-cta { display:inline-block; border-bottom:1px solid var(--ink); padding:8px 0; font-size:clamp(19px,3vw,33px); overflow-wrap:anywhere; }
+.contact-section>p:last-child { font-size:13px; margin-top:30px; }
+.site-footer { padding:30px 8vw; display:flex; justify-content:space-between; align-items:center; gap:25px; border-top:1px solid var(--line); }
+.footer-wordmark { font-size:14px; font-weight:700; letter-spacing:.16em; }
+.site-footer small { font-size:11px; color:var(--muted); }
+@media(max-width:700px) { .about-section,.contact-section { padding:85px 22px; } .career-grid { grid-template-columns:1fr; gap:35px; margin-top:50px; } .site-footer { padding:28px 22px; align-items:flex-start; flex-direction:column; } }
+
+/* Detail hierarchy: first, broader view is secondary; second, closer view is primary. */
+.detail-gallery { grid-template-columns:minmax(0, .8fr) minmax(0, 1.2fr); gap:clamp(24px, 3vw, 52px); align-items:start; }
+.detail-gallery img:first-child { margin-top:clamp(35px, 6vw, 100px); }
+.detail-caption { font-size:12px; letter-spacing:.06em; line-height:1.8; margin:24px 0 0; color:rgba(255,255,255,.85); }
+@media(max-width:700px) {
+ .detail-gallery { gap:30px; }
+ .detail-gallery img:first-child { width:72%; margin:0; align-self:flex-start; }
+ .detail-gallery img:nth-child(2) { width:100%; margin:0; }
+ .detail-caption { margin-top:18px; }
+}
+
+/* Artwork metadata follows the image, never overlays the work. */
+.hero-image-wrap .hero-artwork-caption { display:flex; flex-direction:column; gap:6px; margin:22px 0 0; padding:0; text-align:left; font-size:12px; line-height:1.8; letter-spacing:0; text-transform:none; color:rgba(255,255,255,.88); opacity:1; }
+.hero-artwork-caption .artwork-name { color:#fff; font-size:14px; margin-bottom:3px; }
+@media(max-width:700px) { .hero-image-wrap .hero-artwork-caption { margin-top:18px; font-size:12px; line-height:1.8; } .hero-artwork-caption .artwork-name { font-size:14px; } }
+
+/* Editorial revision: full-width visual chapters, consistent alignment, intact silhouettes. */
+.hero-section { display:block; position:relative; padding:90px 0 0; min-height:0; }
+.hero-image-wrap { width:100%; position:relative; }
+.hero-image { width:100%; height:82vh; min-height:520px; max-height:1000px; object-fit:contain; }
+.hero-copy { position:absolute; top:180px; left:5vw; width:30%; padding:0; pointer-events:none; }
+.hero-copy h1 { font-size:clamp(30px,3.1vw,51px); line-height:1.35; }
+.hero-copy .eyebrow { max-width:230px; line-height:1.9; }
+.hero-copy .section-index { display:none; }
+.hero-image-wrap .hero-artwork-caption { margin:0; padding:26px 5vw 40px; }
+.detail-section { display:block; padding:80px 5vw; }
+.detail-heading { margin-bottom:35px; }
+.detail-heading .section-index { display:none; }
+.detail-heading h2 { font-size:32px; }
+.detail-caption { margin-top:12px; }
+.detail-gallery { grid-template-columns:1fr 1fr; gap:24px; max-width:none; }
+.detail-gallery img:first-child { margin-top:0; }
+.feature-section,.movement-section { display:flex; flex-direction:column; gap:0; padding:0; }
+.feature-image-column { width:100%; }
+.feature-image-wrap { width:100%; margin:0; background:var(--warm); }
+.feature-image { width:100%; height:85vh; max-height:1000px; object-fit:contain; }
+.feature-copy,.movement-copy { max-width:none; padding:65px 5vw 75px; width:100%; }
+.feature-copy .section-index,.movement-copy .section-index,.materials-intro .section-index,.hat-collection-intro .section-index { display:none; }
+.feature-copy h2,.movement-copy h2,.materials-intro h2,.hat-collection-intro h2 { font-size:clamp(30px,3vw,46px); line-height:1.4; }
+.feature-copy .eyebrow,.movement-copy .eyebrow { margin-bottom:20px; }
+.feature-body,.movement-body { max-width:720px; margin-top:25px; }
+.movement-copy { order:2; }
+.movement-visuals { order:1; width:100%; display:grid; grid-template-columns:1fr 1fr; gap:0; align-items:center; }
+.movement-visuals figure,.movement-detail { margin:0 !important; max-width:none; }
+.movement-visuals img { width:100%; height:75vh; max-height:900px; object-fit:contain; }
+.movement-detail figcaption { display:none; }
+.materials-section,.hat-collection-section { padding:0; }
+.materials-intro,.hat-collection-intro { max-width:none; text-align:left; padding:65px 5vw 50px; }
+.materials-intro h2 { margin:0; }
+.materials-body,.hat-collection-body { max-width:720px; margin:25px 0 0; }
+.materials-images,.hat-collection-grid { display:grid; grid-template-columns:1fr; gap:0; max-width:none; margin:0; }
+.materials-images img,.hat-collection-grid img { width:100%; height:85vh; max-height:1000px; object-fit:contain; margin:0; }
+.materials-secondary { margin:0; }
+.hat-collection-grid figure:nth-child(2) { margin-top:0; }
+.craft-section { padding:75px 0 0; }
+.craft-intro { padding:0 5vw; max-width:none; margin-bottom:45px; }
+.craft-intro .section-index { display:none; }
+.craft-intro h2 { font-size:clamp(30px,3vw,46px); line-height:1.4; }
+.craft-composition { grid-template-columns:1fr; gap:0; }
+.craft-composition .craft-worn { margin:0; }
+.craft-composition img { width:100%; height:85vh; max-height:1000px; object-fit:contain; }
+.craft-section .craft-detail { width:100%; margin:0; }
+.craft-detail img { height:70vh; max-height:850px; object-fit:contain; }
+.craft-process-row { margin:0; padding:65px 5vw; grid-template-columns:1fr 1fr; gap:5vw; }
+.tradition-section { padding:80px 5vw; }
+.tradition-intro { max-width:none; margin-bottom:50px; }
+.tradition-intro .section-index { display:none; }
+.tradition-intro h2 { max-width:850px; }
+.tradition-research { grid-template-columns:1fr; gap:45px; max-width:1000px; margin:0 auto; }
+.tradition-gat { margin-top:0 !important; }
+.tradition-jeongja { grid-column:auto; width:100%; }
+.about-section,.contact-section { padding-left:5vw; padding-right:5vw; }
+@media(max-width:700px) {
+ .hero-section { padding-top:75px; }
+ .hero-copy { position:relative; top:auto; left:auto; width:auto; padding:28px 22px; }
+ .hero-copy h1 { font-size:34px; }
+ .hero-copy .eyebrow { max-width:none; font-size:9px; }
+ .hero-image { height:auto; min-height:0; max-height:none; }
+ .hero-image-wrap .hero-artwork-caption { padding:22px; }
+ .detail-section { padding:45px 22px; }
+ .detail-gallery { display:grid; grid-template-columns:1fr; gap:25px; }
+ .detail-gallery img:first-child,.detail-gallery img:nth-child(2) { width:100%; margin:0; }
+ .feature-copy,.movement-copy,.materials-intro,.hat-collection-intro { padding:40px 22px 50px; }
+ .feature-image,.materials-images img,.hat-collection-grid img,.craft-composition img { height:auto; max-height:none; }
+ .movement-visuals { grid-template-columns:1fr; }
+ .movement-visuals img { height:auto; max-height:none; }
+ .movement-detail { width:100%; }
+ .materials-images { display:grid; gap:30px; }
+ .materials-secondary { max-width:none; }
+ .hat-collection-grid { gap:30px; }
+ .craft-section { padding-top:50px; }
+ .craft-intro { padding:0 22px; }
+ .craft-composition { display:grid; gap:30px; }
+ .craft-composition .craft-worn { width:100%; margin:0; }
+ .craft-section .craft-detail { margin:30px 0; width:100%; }
+ .craft-detail img { height:auto; }
+ .craft-process-row { padding:40px 22px; grid-template-columns:1fr; }
+ .tradition-section,.about-section,.contact-section { padding:60px 22px; }
+}
+
+/* Unified upright typography, matching the existing hero font stack. */
+body, button, input, textarea, select, h1, h2, h3, p, a, span, figcaption, summary, small { font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif; font-style:normal; }
+em, cite { font-style:normal; }
+
+/* Equal presentation frames for the three romantic hats. */
+.hat-collection-grid { display:grid; grid-template-columns:1fr; gap:36px; }
+.hat-collection-grid figure,.hat-collection-grid figure:nth-child(2),.hat-collection-grid figure:nth-child(3) { width:100%; max-width:none; margin:0; }
+.hat-collection-grid figure { display:flex; justify-content:center; align-items:center; }
+.hat-collection-grid img { display:block; width:100%; height:78vh; min-height:420px; max-height:900px; object-fit:contain; }
+@media(max-width:700px) {
+ .hat-collection-grid { gap:24px; }
+ .hat-collection-grid img { width:100%; height:115vw; min-height:0; max-height:650px; object-fit:contain; }
+}
