@@ -182,45 +182,100 @@ export default function Page() {
           <figure className="tradition-hogeon"><img src={images.traditionHogeon} alt="호건 연구 자료" loading="lazy" /></figure>
           <figure className="tradition-gat"><img src={images.traditionGat} alt="갓의 제작과정을 보여주는 연구 자료" loading="lazy" /></figure>
           <figure className="tradition-jeongja"><img src={images.traditionJeongja} alt="박물관 유물과 작가 제작물을 구분하여 비교하는 정자관 연구 자료" loading="lazy" /></figure>
-        </div>
+          </div>
       </section>
-<section id="about" className="about-section" aria-labelledby="about-title"><div className="about-intro"><span className="section-index">08 <i aria-hidden="true" /></span><p className="eyebrow">ABOUT MAMELDA</p><h2 id="about-title">{language === 'ko' ? "작가 소개 및 주요 경력" : "ABOUT MAMELDA"}</h2><p className="artist-name">별님</p><p>{language === 'ko' ? "마멜다 대표 · 헤드피스 & 모자 디자이너" : "Founder of MAMELDA · Artist & Milliner"}</p><p>{language === 'ko' ? "공예와 패션, 전통과 현대를 오가며 섬세한 조형미와 자유로운 상상력으로 머리 위의 공간에 흥미로운 형태와 감각을 펼쳐냅니다." : "Moving between craft and fashion, tradition and modernity, the artist brings intriguing forms and sensations to the space above the head through delicate sculptural beauty and free imagination."}</p></div><div className="career-grid"><div className="career-group"><h3>{language === 'ko' ? "주요 경력" : "SELECTED EXPERIENCE"}</h3><p>{language === 'ko' ? "일본 제국호텔 임페리얼 아케이드 입점 경력" : "Retail presence at Imperial Arcade, Imperial Hotel, Japan"}</p><p>{language === 'ko' ? "신세계백화점 및 현대백화점 입점·팝업 경력" : "Retail presence and pop-ups at Shinsegae and Hyundai Department Stores"}</p><p>{language === 'ko' ? "2015 이탈리아 밀라노 엑스포 한국관 입점" : "Retail presence at the Korea Pavilion, Expo Milano 2015, Italy"}</p></div><div className="career-group"><h3>{language === 'ko' ? "패션쇼 협업" : "RUNWAY COLLABORATIONS"}</h3><p>{language === 'ko' ? "2025 광복 80주년 기념 패션쇼 · 남산한옥마을 — 한아람한복 협업" : "80th Liberation Anniversary Fashion Show, Namsangol Hanok Village"}</p><p>{language === 'ko' ? "2025 부활절 퍼레이드 패션쇼 · 광화문광장 — 호낭화한복 협업" : "Easter Parade Fashion Show, Gwanghwamun Square"}</p></div><div className="career-group"><h3>{language === 'ko' ? "전시 경력" : "EXHIBITIONS"}</h3><p>{language === 'ko' ? "개인전 3회 · 그룹전 20회 이상" : "Three solo exhibitions and more than twenty group exhibitions"}</p><p>{language === 'ko' ? "제1회 — 한국현대의상박물관, 서울 종로" : "1st — Korea Museum of Modern Costume, Jongno, Seoul"}</p><p>{language === 'ko' ? "제2회 — 한국뉴욕주립대학교 현대의상박물관, 인천 송도" : "2nd — SUNY Korea Museum of Modern Costume, Songdo, Incheon"}</p><p>{language === 'ko' ? "제3회 — 갤러리 이즈, 서울 인사동" : "3rd — Gallery IS, Insadong, Seoul"}</p></div><div className="career-group"><h3>{language === 'ko' ? "학력 및 강의 경력" : "EDUCATION & TEACHING"}</h3><p>{language === 'ko' ? "홍익대학교 일반대학원 디자인공예학과 박사과정 수료" : "Doctoral coursework completed in Design and Crafts, Graduate School, Hongik University"}</p><p>{language === 'ko' ? "대구가톨릭대학교 패션디자인학과 강의" : "Teaching experience, Department of Fashion Design, Daegu Catholic University"}</p><p>{language === 'ko' ? "「패션소품개발 워크숍」 — 모자 디자인·제작" : "“Fashion Accessories Development Workshop” — Hat Design and Making"}</p></div></div><details className="exhibition-detail"><summary>{language === 'ko' ? "모자와 헤드피스로 드레스 룩을 완성하다" : "Completing the dress look with hats and headpieces."}</summary><p>{language === 'ko' ? "2021 / 제2회 개인전 · 한국뉴욕주립대학교 현대의상박물관" : "Second solo exhibition · SUNY Korea Museum of Modern Costume"}</p><p>{language === 'ko' ? "처음부터 하나의 작업인 듯, 드레스와 완벽한 조화를 연출합니다." : "As if conceived together, each headpiece harmonises seamlessly with its dress."}</p><p>{language === 'ko' ? "박물관의 제안으로 소장 드레스의 소재와 색, 실루엣에 맞춰 모자와 헤드피스를 직접 디자인·제작했습니다." : "At the museum’s invitation, hats and headpieces were designed and handcrafted to complement the materials, colours and silhouettes of its dresses."}</p><p>{language === 'ko' ? "(개인전: 3개월)" : "(Solo exhibition: three months.)"}</p></details></section><section id="contact" className="contact-section" aria-labelledby="contact-title"><span className="section-index">09 <i aria-hidden="true" /></span><h2 id="contact-title">{language === 'ko' ? "공간 전시 · 브랜드 협업 제안" : "EXHIBITIONS & BRAND COLLABORATIONS"}</h2><div className="contact-body"><p>{language === 'ko' ? "호텔·백화점·문화공간 및 한국 문화행사 초청 전시" : "Exhibition proposals for hotels, department stores, cultural venues and Korean cultural events."}</p><p>{language === 'ko' ? "조명 진열장과 함께하는 화관 전시를 제안합니다." : "Hwagwan is presented with its illuminated display case;"}</p><p>{language === 'ko' ? "마멜다 입점·팝업과 연계한 전시 구성도 협의할 수 있습니다." : "displays linked to MAMELDA retail partnerships and pop-ups can also be arranged."}</p></div><p className="contact-services">{language === 'ko' ? "컬렉션 셀렉션 · 입점 · 시즌 팝업 · 공간 전시" : "Collection selections · Retail · Seasonal pop-ups · Exhibition collaborations"}</p><a className="email-cta" href="mailto:themamelda@naver.com">themamelda@naver.com ↗</a><p><a href="https://www.instagram.com/byeolnim.studio/" target="_blank" rel="noopener noreferrer">Instagram · @byeolnim.studio ↗</a></p></section><footer className="site-footer"><a href="#top" className="footer-wordmark">MAMELDA</a><small>© 2026 MAMELDA. All rights reserved.</small></footer>{/* 인스타그램 & 카카오톡 문의 링크 영역 */}
-      <footer className="w-full py-6 mt-12 border-t flex flex-col items-center justify-center gap-3 text-sm text-gray-600">
-        {/* 인스타 링크 (로고 + 텍스트) */}
-        <a 
-          href="https://instagram.com/본인인스타계정주소" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="flex items-center gap-1.5 hover:text-pink-600 transition-colors"
-        >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="16" 
-            height="16" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="w-4 h-4 text-pink-600"
-          >
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
-          </svg>
-          <span>Instagram</span>
-        </a>
+      
+      <section id="about" className="about-section" aria-labelledby="about-title">
+        <div className="about-intro">
+          <span className="section-index">08 <i aria-hidden="true" /></span>
+          <p className="eyebrow">ABOUT MAMELDA</p>
+          <h2 id="about-title">{language === 'ko' ? "작가 소개 및 주요 경력" : "ABOUT MAMELDA"}</h2>
+          <p className="artist-name">별님</p>
+          <p>{language === 'ko' ? "마멜다 대표 · 헤드피스 & 모자 디자이너" : "Founder of MAMELDA · Artist & Milliner"}</p>
+          <p>{language === 'ko' ? "공예와 패션, 전통과 현대를 오가며 섬세한 조형미와 자유로운 상상력으로 머리 위의 공간에 흥미로운 형태와 감각을 펼쳐냅니다." : "Moving between craft and fashion, tradition and modernity, the artist brings intriguing forms and sensations to the space above the head through delicate sculptural beauty and free imagination."}</p>
+        </div>
+        <div className="career-grid">
+          <div className="career-group">
+            <h3>{language === 'ko' ? "주요 경력" : "SELECTED EXPERIENCE"}</h3>
+            <p>{language === 'ko' ? "일본 제국호텔 임페리얼 아케이드 입점 경력" : "Retail presence at Imperial Arcade, Imperial Hotel, Japan"}</p>
+            <p>{language === 'ko' ? "신세계백화점 및 현대백화점 입점·팝업 경력" : "Retail presence and pop-ups at Shinsegae and Hyundai Department Stores"}</p>
+            <p>{language === 'ko' ? "2015 이탈리아 밀라노 엑스포 한국관 입점" : "Retail presence at the Korea Pavilion, Expo Milano 2015, Italy"}</p>
+          </div>
+          <div className="career-group">
+            <h3>{language === 'ko' ? "패션쇼 협업" : "RUNWAY COLLABORATIONS"}</h3>
+            <p>{language === 'ko' ? "2025 광복 80주년 기념 패션쇼 · 남산한옥마을 — 한아람한복 협업" : "80th Liberation Anniversary Fashion Show, Namsangol Hanok Village"}</p>
+            <p>{language === 'ko' ? "2025 부활절 퍼레이드 패션쇼 · 광화문광장 — 호낭화한복 협업" : "Easter Parade Fashion Show, Gwanghwamun Square"}</p>
+          </div>
+          <div className="career-group">
+            <h3>{language === 'ko' ? "전시 경력" : "EXHIBITIONS"}</h3>
+            <p>{language === 'ko' ? "개인전 3회 · 그룹전 20회 이상" : "Three solo exhibitions and more than twenty group exhibitions"}</p>
+            <p>{language === 'ko' ? "제1회 — 한국현대의상박물관, 서울 종로" : "1st — Korea Museum of Modern Costume, Jongno, Seoul"}</p>
+            <p>{language === 'ko' ? "제2회 — 한국뉴욕주립대학교 현대의상박물관, 인천 송도" : "2nd — SUNY Korea Museum of Modern Costume, Songdo, Incheon"}</p>
+            <p>{language === 'ko' ? "제3회 — 갤러리 이즈, 서울 인사동" : "3rd — Gallery IS, Insadong, Seoul"}</p>
+          </div>
+          <div className="career-group">
+            <h3>{language === 'ko' ? "학력 및 강의 경력" : "EDUCATION & TEACHING"}</h3>
+            <p>{language === 'ko' ? "홍익대학교 일반대학원 디자인공예학과 박사과정 수료" : "Doctoral coursework completed in Design and Crafts, Graduate School, Hongik University"}</p>
+            <p>{language === 'ko' ? "대구가톨릭대학교 패션디자인학과 강의" : "Teaching experience, Department of Fashion Design, Daegu Catholic University"}</p>
+            <p>{language === 'ko' ? "「패션소품개발 워크숍」 — 모자 디자인·제작" : "“Fashion Accessories Development Workshop” — Hat Design and Making"}</p>
+          </div>
+        </div>
+        <details className="exhibition-detail">
+          <summary>{language === 'ko' ? "모자와 헤드피스로 드레스 룩을 완성하다" : "Completing the dress look with hats and headpieces."}</summary>
+          <p>{language === 'ko' ? "2021 / 제2회 개인전 · 한국뉴욕주립대학교 현대의상박물관" : "Second solo exhibition · SUNY Korea Museum of Modern Costume"}</p>
+          <p>{language === 'ko' ? "처음부터 하나의 작업인 듯, 드레스와 완벽한 조화를 연출합니다." : "As if conceived together, each headpiece harmonises seamlessly with its dress."}</p>
+          <p>{language === 'ko' ? "박물관의 제안으로 소장 드레스의 소재와 색, 실루엣에 맞춰 모자와 헤드피스를 직접 디자인·제작했습니다." : "At the museum’s invitation, hats and headpieces were designed and handcrafted to complement the materials, colours and silhouettes of its dresses."}</p>
+          <p>{language === 'ko' ? "(개인전: 3개월)" : "(Solo exhibition: three months.)"}</p>
+        </details>
+      </section>
 
-        {/* 카카오로 문의하기 링크 */}
-        <a 
-          href="https://open.kakao.com/o/sXS2L3Si" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="font-medium text-yellow-600 hover:underline"
-        >
-          카카오로 문의하기
-        </a>
+      <section id="contact" className="contact-section" aria-labelledby="contact-title">
+        <span className="section-index">09 <i aria-hidden="true" /></span>
+        <h2 id="contact-title">{language === 'ko' ? "공간 전시 · 브랜드 협업 제안" : "EXHIBITIONS & BRAND COLLABORATIONS"}</h2>
+        <div className="contact-body">
+          <p>{language === 'ko' ? "호텔·백화점·문화공간 및 한국 문화행사 초청 전시" : "Exhibition proposals for hotels, department stores, cultural venues and Korean cultural events."}</p>
+          <p>{language === 'ko' ? "조명 진열장과 함께하는 화관 전시를 제안합니다." : "Hwagwan is presented with its illuminated display case;"}</p>
+          <p>{language === 'ko' ? "마멜다 입점·팝업과 연계한 전시 구성도 협의할 수 있습니다." : "displays linked to MAMELDA retail partnerships and pop-ups can also be arranged."}</p>
+        </div>
+        <p className="contact-services">{language === 'ko' ? "컬렉션 셀렉션 · 입점 · 시즌 팝업 · 공간 전시" : "Collection selections · Retail · Seasonal pop-ups · Exhibition collaborations"}</p>
+        
+        {/* 메인 이메일 */}
+        <a className="email-cta" href="mailto:themamelda@naver.com">themamelda@naver.com ↗</a>
+        
+        {/* 인스타그램 링크 (인스타 로고 포함) */}
+        <p>
+          <a href="https://www.instagram.com/byeolnim.studio/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" style={{ flexShrink: 0 }}>
+              <radialGradient id="ig-grad" cx="30%" cy="107%" r="150%">
+                <stop offset="0%" stopColor="#fdf497" />
+                <stop offset="5%" stopColor="#fdf497" />
+                <stop offset="45%" stopColor="#fd5949" />
+                <stop offset="60%" stopColor="#d6249f" />
+                <stop offset="100%" stopColor="#285AEB" />
+              </radialGradient>
+              <rect x="2" y="2" width="20" height="20" rx="6" fill="url(#ig-grad)" />
+              <path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm5.25-8.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z" fill="#fff" />
+            </svg>
+            Instagram · @byeolnim.studio ↗
+          </a>
+        </p>
+
+        {/* 카카오톡 문의하기 링크 (카카오 로고 포함) */}
+        <p>
+          <a href="https://open.kakao.com/o/sXS2L3Si" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" style={{ flexShrink: 0 }}>
+              <rect width="24" height="24" rx="6" fill="#FEE500" />
+              <path d="M12 5c-4.418 0-8 2.76-8 6.165 0 2.22 1.48 4.162 3.73 5.252-.164.605-.595 2.19-.682 2.532-.108.423.155.417.327.303.136-.09 2.164-1.47 3.037-2.066.52.076 1.05.116 1.588.116 4.418 0 8-2.76 8-6.165S16.418 5 12 5z" fill="#000000" />
+            </svg>
+            카카오로 문의하기 ↗
+          </a>
+        </p>
+      </section>
+
+      {/* 최하단 푸터 */}
+      <footer className="site-footer">
+        <a href="#top" className="footer-wordmark">MAMELDA</a>
+        <small>© 2026 MAMELDA. All rights reserved.</small>
       </footer>
     </main>
   )
